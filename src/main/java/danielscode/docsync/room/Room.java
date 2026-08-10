@@ -4,11 +4,7 @@ import danielscode.docsync.document.Document;
 import danielscode.docsync.shared.entity.BaseEntity;
 import danielscode.docsync.user.User;
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
+import lombok.*;
 
 
 @Entity
@@ -16,6 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class Room extends BaseEntity {
 

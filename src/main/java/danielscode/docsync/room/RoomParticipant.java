@@ -2,9 +2,7 @@ package danielscode.docsync.room;
 
 import danielscode.docsync.user.User;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.Instant;
 
@@ -13,6 +11,8 @@ import java.time.Instant;
 @Getter
 @Setter
 @NoArgsConstructor
+@Builder
+@AllArgsConstructor
 public class RoomParticipant {
 
     @EmbeddedId
