@@ -42,6 +42,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -97,6 +101,14 @@
 			<groupId>org.springframework.retry</groupId>
 			<artifactId>spring-retry</artifactId>
 			<version>2.0.11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-messaging</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

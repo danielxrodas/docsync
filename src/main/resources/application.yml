@@ -18,3 +18,7 @@ app:
   jwt:
     secret: ${JWT_SECRET}
     expiration-ms: ${JWT_EXPIRATION_MS}
+  collaboration:
+    max-version-lag: 10
+    flush-interval-ms: 30000
+    max-participants-per-room: 50
